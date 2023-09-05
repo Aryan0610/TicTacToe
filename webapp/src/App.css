@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+  --color1: #71C9CE; 
+  --color2: #E3FDFD;
+}
+
+body {
+  background-color: var(--color2);
+  font-family:  Poppins;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 10px 0px 10px 0px;
+
+  font-size: 30px;
+  font-weight: 600;
+
+  background-color: var(--color1);
+  color: var(--color2);
+}
+
+.HeroSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  .HeroSection {
+    display: flex;
+    flex-direction: column;
+  }
+}

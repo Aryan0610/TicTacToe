@@ -1,0 +1,105 @@
+.Sidepanel {
+    margin: 80px 240px 0px 60px;
+
+    width: 30%;
+}
+
+.Score {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ScoreComponent {
+    font-size: 16px;
+    
+    margin: 10px;
+
+    color: var(--color1);
+}
+
+.ScoreComponentHeader {
+    font-size: 28px;
+    font-weight: 800;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.ScoreComponentNum {
+    display: flex;
+    justify-content: space-around;
+}
+
+.TurnIndicatorDiv {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+.TurnIndicator {
+    display: flex;
+
+    margin: 20px 0px;
+
+    align-items: center;
+
+    border-radius: 100px;
+
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.TurnIndicator div {
+    margin: 8px 12px;
+
+    padding: 8px 14px;
+}
+
+.CurrentTurn {
+    background-color: var(--color2);
+    color: var(--color1);
+
+    border-radius: 100px;
+}
+
+.PlayAgainBtn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.PlayAgainBtn button{
+    background: none;
+    outline: none;
+    border: none;
+
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Poppins;
+
+    padding: 8px 12px;
+
+    border-radius: 20px;
+
+    background-color: var(--color1);
+    color: var(--color2);
+
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .Sidepanel {
+        margin: 0;
+        padding: 0;
+
+        width: 100%;
+    }
+
+    .Score {
+        padding: 20px
+    }
+
+    .PlayAgainBtn {
+        margin-bottom: 200px;
+    }
+}
